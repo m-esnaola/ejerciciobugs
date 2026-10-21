@@ -14,7 +14,8 @@ def fn_CalcularDescuento_fl(precio_total_fl, tipo_cliente_str):
     """
 
     if tipo_cliente_str == "VIP":
-        precio_final_fl = precio_total_fl * 0.20
+        #Tiene q multiplicar por 0,8, ya que el descuento es del 20. De la otra forma, solo pagaban el 20% en vez del 80%
+        precio_final_fl = precio_total_fl * 0.80
     elif tipo_cliente_str == "HABITUAL":
         precio_final_fl = precio_total_fl * 0.90
     else:
