@@ -5,6 +5,8 @@ EJERCICIO: Sistema de Gestión de Ventas (gestion_ventas.py)
 
 """
 
+#Ya debería funcionar correctamente el programa#
+
 def fn_CalcularDescuento_fl(precio_total_fl, tipo_cliente_str):
     """
     Calcula el precio final aplicando un descuento según el tipo de cliente.
