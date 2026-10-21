@@ -43,8 +43,10 @@ def fn_EvaluarObjetivoDiario_bool(total_ventas_fl, objetivo_int=500):
     """
 
     if total_ventas_fl < objetivo_int: 
+        #Si no ha cumplido el objetivo, devuelve False en vez de True como antes
         alcanzado_bool = False
     else:
+        #Si lo ha completado, devuelve true
         alcanzado_bool = True
         
     return alcanzado_bool
