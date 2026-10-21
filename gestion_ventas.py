@@ -31,6 +31,8 @@ def fn_ProcesarListaVentas_fl(ventas_lst):
     
     while i < len(ventas_lst):
         total_fl += ventas_lst[i]
+        #Faltaba añadirle al contador que sume uno por cada iteracion
+        i += 1
 
     return total_fl
 
